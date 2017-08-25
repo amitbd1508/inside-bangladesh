@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:scrollbars="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+  <LinearLayout
+      android:orientation="horizontal"
+      android:background="#e3efe3"
+      android:padding="5dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <ImageView
+
+          android:scaleType="fitXY"
+          android:src="@drawable/saint"
+          android:layout_width="60dp"
+          android:layout_height="60dp" />
+      <ImageView
+          android:layout_marginLeft="3dp"
+          android:scaleType="fitXY"
+          android:src="@drawable/saint"
+          android:layout_width="60dp"
+          android:layout_height="60dp" />
+      <ImageView
+          android:layout_marginLeft="3dp"
+          android:scaleType="fitXY"
+          android:src="@drawable/saint"
+          android:layout_width="60dp"
+          android:layout_height="60dp" />
+      <ImageView
+          android:layout_marginLeft="3dp"
+          android:scaleType="fitXY"
+          android:src="@drawable/saint"
+          android:layout_width="60dp"
+          android:layout_height="60dp" />
+      <ImageView
+          android:layout_marginLeft="3dp"
+          android:scaleType="fitXY"
+          android:src="@drawable/saint"
+          android:layout_width="60dp"
+          android:layout_height="60dp" />
+      <ImageView
+          android:layout_marginLeft="3dp"
+          android:scaleType="fitXY"
+          android:src="@drawable/addphoto"
+          android:layout_width="60dp"
+          android:layout_height="60dp" />
+  </LinearLayout>
+</ScrollView>
+</LinearLayout>
